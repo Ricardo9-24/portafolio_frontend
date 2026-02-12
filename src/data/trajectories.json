@@ -1,0 +1,20 @@
+[
+    {
+        "date": "2021 - 2025",
+        "work": "Desarrollador Full Stack (Remoto)",
+        "place": "Soluciones Creativas · San Pedro, N.L",
+        "jobs": "Desarrollo de páginas web con PHP, Angular y MySQL. Implementación de APIs con PHP, integración de WhatsApp Meta Bussiness, Migracion de facturación de 3.3  a 4.0"
+    },
+    {
+        "date": "2019 – 2021",
+        "work": "Desarrollador Full Stack",
+        "place": "Red Efectiva · Monterrey N.L",
+        "jobs": "Encargado de proyecto de pago deservicios y servicios, Tambien de dar soporte a aplicacion de venta de boleto de la lortería nacional, generación metodos en Web Service, Manejo e integración de proveedores de servicios de pagos eletrónicos, análisis y correción de errores de tareas en C#."
+    },
+    {
+        "date": "2018 – 2019",
+        "work": "Desarrollador Full Stack",
+        "place": "Sofnet Soluciones · Monterrey, N.L",
+        "jobs": "Trabaje en un siste ERP, Integre el modulo de facturación 3.3, generación de reportes en PDF y Excel y colaboré en proyecto en .NET"
+    }
+]

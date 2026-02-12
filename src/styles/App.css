@@ -1,0 +1,166 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  /* text-align: center; */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+* {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+[data-theme="dark"] {
+  --bg-color: rgb(19 19 19 / var(--tw-bg-opacity, 1));
+  --text-color: #ffffff;
+  /* font-size: 20px; */
+
+  .card {
+    max-width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .3s ease;
+    background: #1e293b;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 1.2rem; */
+    /* flex-shrink: 0; */
+    border-top: 5px solid #007bff;
+  }
+
+  a {
+    font-weight: 400;
+    color: #0d6efd;
+  }
+
+  nav {
+    background-color: rgb(19 19 19 / 1);
+  }
+
+  .nav-link {
+    color: #ffffff !important;
+  }
+
+  .btn-dark-mode {
+    background-color: #ffffff;
+    color: var(--text-color);
+  }
+
+}
+
+nav {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: #007bff !important;
+}
+
+.border-trayectory {
+  background-color: rgb(7 88 169) !important;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+a {
+  font-weight: 400;
+  color: #0d6efd;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.image-circular {
+  width: 200px;
+  height: 290px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: auto;
+  display: flex;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  border-top: 10px solid #2563eb;
+}
+
+.btnSendMail {
+  float: right;
+}
+
+.app {
+  /* min-height: 100vh; */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.custom-width {
+  width: 100px;
+}

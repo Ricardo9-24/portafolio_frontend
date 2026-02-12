@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Optimizacion Consultas BD",
+        "text": "Optimización de las consultas de base de datos MySQL para aplicacion web de hospital"
+    },
+    {
+        "title": "Modernización Sistema Mensajería",
+        "text": "Modernizar una aplicacion web de chat integrando WhatsApp Bussines con ayuda de un webhook echo en Node Js"
+    },
+    {
+        "title": "Modernización Sistema Legacy",
+        "text": "Analista en la migración de un proyecto legacy (IE-only) a CodeIgniter. Mi expertise en PHP y conocimientos basicos en C#, junto con la creación de un diagrama de secuencia, optimizó el proceso y aceleró la migración del sistema."
+    }
+]
