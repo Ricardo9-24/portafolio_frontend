@@ -10,7 +10,6 @@ import "../styles/App.css";
 const API_URL = import.meta.env.VITE_REACT_API_URL;
 
 const Excescises = () => {
-    console.log(import.meta.env.VITE_REACT_API_URL)
     const [data, setData] = useState<Lenguage[]>([]);
     const [dataEdit, setDataEdit] = useState<Lenguage | null>(null);
     const [isLoading, setIsLoading] = useState(true);
