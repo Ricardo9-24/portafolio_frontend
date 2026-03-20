@@ -85,7 +85,7 @@ const FormLenguage: React.FC<ModalProps> = ({ lenguage, onCancel, handleAddEdit 
                             <button className="btn btn-outline-dark" onClick={onCancel}>Cancelar</button>
                         </div>
                         <div className="col-md-6 ">
-                            <button type="submit" className="btn btn-dark btnSendMail">Enviar</button>
+                            <button type="submit" className="btn btn-dark btnSendMail">Guadar</button>
                         </div>
                     </div>
                 </form>

@@ -72,11 +72,12 @@ const Index: React.FC = () => {
                                     Hola, soy Ricardo
                                 </motion.h1>
                                 <p className="fs-4 text-secondary col-md-12">
-                                    Desarrollador Full Stack con más de 5 años de experiencia especializado en el ecosistema web.
-                                    Cuento con una trayectoria sólida liderando proyectos clave, como en Red Efectiva,
-                                    donde me enfoqué en la creación de soluciones escalables y accesibles.
-                                    Mi enfoque combina una base sólida en tecnologías como PHP, JavaScript, etc, con el dominio autodidacta
-                                    de herramientas modernas como React y Laravel, priorizando siempre la resolución eficiente de problemas complejos.
+                                    Desarrollador Full Stack con más de 5 años de experiencia, especializado en el ecosistema web.
+                                    Cuento con una trayectoria sólida liderando proyecto en Red Efectiva,
+                                    donde me enfoqué en la creación de soluciones escalables y accesibles, así como tambien en Tecnologias Lozano.
+                                    Mi enfoque combina una base sólida en tecnologías como PHP, JavaScript, MySQL etc, con el dominio autodidacta
+                                    de herramientas modernas como React, Laravel, NodeJs y AWS,
+                                    priorizando siempre la resolución eficiente de problemas complejos.
                                 </p>
                                 <h5><a href='' onClick={() => navigate("/proyecto")}>Proyecto</a></h5>
                             </div>

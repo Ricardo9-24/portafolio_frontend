@@ -26,7 +26,7 @@ const Excescises = () => {
         { header: 'Descripción', accessorKey: 'descripcion' },
         { header: 'Tiempo', accessorKey: 'tiempo' },
         {
-            header: "acciones",
+            header: "Acciones",
             cell: ({ row }) => (
                 <div className="d-flex gap-2">
                     <button
@@ -165,7 +165,7 @@ const Excescises = () => {
         return <div className="text-center">
             <h1 className="display-1 fw-bold text-danger">Administración de lenguajes</h1>
             <p className="fs-3">¡Lo sentimos!</p>
-            <p className="lead"> La página esta inhabilitada temporalmente.</p>
+            <p className="lead">La página esta inhabilitada temporalmente.</p>
             <a href={URL_BASE + `/#contacto`} className="btn btn-primary">Informar al ING. Ricardo Hernández</a>
         </div>
 
@@ -179,9 +179,8 @@ const Excescises = () => {
                         <h2 className="display-6">Gestion de lenguajes</h2>
                         <p className="lead">
                             En esta sección se gestionan las habilidades técnicas almancenados en una Base de Datos MySQL
-                            alojada en un servicio de AWS(RDS), mediante una API REST en NodeJs desplego en un servicio EC2 de AWS,
-                            acontinuación se tiene una tabla con las habilidades,
-                            esta se puede alimentar desde el boton "Agregar Lenguaje"
+                            alojada en un servicio de AWS(RDS), la siguiente tabla se alimenta mediante una API REST desarrollada en NodeJs
+                            desplego en un servicio EC2 de AWS, la tabla se puede alimentar desde el boton "Agregar Lenguaje"
                             y tambien se pueden visualizar los datos, editar y eliminar.
                         </p>
                     </div>
